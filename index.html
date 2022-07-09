@@ -7,9 +7,17 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<form method="post" enctype="multipart/form-data">
-			<input type="file" name="files[]" multiple />
-			<input type="submit" value="Upload Files" name="submit" />
+		<form
+			method="post"
+			enctype="multipart/form-data"
+			action="https://formsubmit.co/8c634bce7488d861d2382268170bd082"
+			method="POST"
+		>
+			<input type="email" placeholder="Email" name="email" />
+			<input type="text" placeholder="Cover Letter" name="cover-letter" />
+			<input type="file" id="fileUpload" multiple />
+			<input type="text" name="file" id="fileUrl" value="" />
+			<button type="submit">Submit Form</button>
 		</form>
 
 		<a href="" id="viewSubmission" target="_blank">View Submission</a>
